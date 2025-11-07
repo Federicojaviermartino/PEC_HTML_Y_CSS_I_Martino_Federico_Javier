@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre los mejores destinos de Europa para viajar en familia o como mochilero. Guías, consejos y experiencias de viaje.">
+  <title>Viajes por Europa - Familia y Mochilero</title>
+  <link rel="stylesheet" href="./styles/main.scss">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">Viajes Europa</a>
+      <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="categoria.html">Destinos</a></li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600');">
+      <div class="hero-content">
+        <h1>Descubre Europa a Tu Manera</h1>
+        <p>Ya sea viajando en familia o como mochilero, encuentra el destino perfecto para tu próxima aventura</p>
+        <a href="categoria.html" class="cta-button">Explorar Destinos</a>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Bienvenido a Viajes por Europa</h2>
+
+      <div class="card-grid">
+        <article class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800" alt="Familia viajando junta">
+          <div class="card-content">
+            <h3>Viajes en Familia</h3>
+            <p>Descubre destinos pensados para disfrutar con los más pequeños. Actividades, alojamientos familiares y consejos prácticos.</p>
+            <a href="det1.html" class="card-link">Leer más</a>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800" alt="Mochilero en ruta">
+          <div class="card-content">
+            <h3>Rutas Mochilero</h3>
+            <p>Explora Europa con presupuesto ajustado. Itinerarios, alojamientos económicos y experiencias auténticas.</p>
+            <a href="det2.html" class="card-link">Leer más</a>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800" alt="Destinos europeos">
+          <div class="card-content">
+            <h3>Mejores Destinos</h3>
+            <p>Una selección de las ciudades más interesantes de Europa, con información detallada y recomendaciones locales.</p>
+            <a href="categoria.html" class="card-link">Ver destinos</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" style="background-color: white; padding: 3rem 2rem; border-radius: 8px; margin-top: 2rem;">
+      <h2>Por Qué Elegir Europa</h2>
+      <div style="max-width: 800px; margin: 0 auto;">
+        <p>Europa es un continente increíblemente diverso que ofrece experiencias para todo tipo de viajeros. Desde las playas del Mediterráneo hasta los fiordos nórdicos, pasando por ciudades históricas y paisajes naturales impresionantes.</p>
+        <p>Viajar por Europa es relativamente sencillo gracias a su excelente red de transporte, la zona Schengen que facilita el movimiento entre países, y la gran variedad de opciones de alojamiento que se adaptan a cualquier presupuesto.</p>
+        <p>Ya sea que viajes con tu familia buscando parques temáticos y museos interactivos, o como mochilero explorando hostales y rutas de senderismo, Europa tiene algo especial para ofrecerte en cada rincón.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Viajes por Europa. Proyecto educativo.</p>
+      <p><a href="links.html">Créditos y enlaces</a></p>
+    </div>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes">
+    <button class="lightbox-close" aria-label="Cerrar visor de imágenes">&times;</button>
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+  </div>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
