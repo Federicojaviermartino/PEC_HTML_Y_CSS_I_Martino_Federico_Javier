@@ -85,7 +85,3 @@ El sitio cumple con las pautas WCAG 2.0 nivel AA:
 - Imágenes: Unsplash
 - Mapas: OpenStreetMap via Leaflet
 - Desarrollo: Proyecto educativo UOC
-
-## Licencia
-
-Proyecto educativo sin fines comerciales.
