@@ -317,6 +317,7 @@ section {
     overflow: hidden;
     margin: $spacing-lg 0;
     border-radius: $border-radius;
+    z-index: 1;
 
     iframe {
       position: absolute;
@@ -329,11 +330,13 @@ section {
   }
 
   .map-container {
+    position: relative;
     height: 400px;
     margin: $spacing-lg 0;
     border-radius: $border-radius;
     overflow: hidden;
     box-shadow: $box-shadow;
+    z-index: 1;
   }
 }
 
