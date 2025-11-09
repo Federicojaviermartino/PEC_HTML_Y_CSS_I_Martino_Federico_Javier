@@ -313,7 +313,7 @@ Se utilizaron elementos HTML5 semánticos para estructurar correctamente el cont
 </main>
 
 <footer>
-  <p>&copy; 2024 Viajes por Europa</p>
+  <p>&copy; 2025 Viajes por Europa</p>
 </footer>
 ```
 

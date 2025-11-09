@@ -82,6 +82,6 @@ El sitio cumple con las pautas WCAG 2.0 nivel AA:
 
 ## Créditos
 
-- Imágenes: Unsplash
+- Imágenes: Pixabay
 - Mapas: OpenStreetMap via Leaflet
 - Desarrollo: Proyecto educativo UOC
