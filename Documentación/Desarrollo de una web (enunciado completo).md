@@ -197,6 +197,3 @@ A menudo es inevitable, en producir una obra multimedia, hacer uso de recursos c
 Por lo tanto, en presentar una práctica que haga uso de recursos ajenos, se tiene que presentar juntamente con ella un documento en que se detallen todos ellos, especificando el nombre de cada recurso, su autor, el lugar donde se obtuvo, y si estatus legal: si la obra está protegida por copyright o si se acoge a alguna otra licencia de uso (Creative Commons, licencia GNU, GPL...). El estudiante tendrá que asegurarse que la licencia que sea no impide específicamente su uso en el marco de la práctica. En caso de no encontrar la información correspondiente, tendrá que asumir que la obra está protegida por copyright.
 
 Se tendrán, además, que adjuntar los ficheros originales cuando las obras utilizadas sean digitales, y su código fuente, si corresponde.
-
-Plagio
-Salvo que se especifique de forma diferente en el enunciado, las pruebas de evaluación continua y prácticas se tienen que realizar de forma individual. En caso de detectar actividades plagiadas, todas ellas serán cualificadas con una nota de D.
