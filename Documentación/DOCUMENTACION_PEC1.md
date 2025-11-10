@@ -4,14 +4,14 @@
 **Estudiante:** Federico Javier Martino
 **Asignatura:** HTML y CSS I
 **Universidad:** UOC (Universitat Oberta de Catalunya)
-**Fecha:** Noviembre 2024
+**Fecha:** Noviembre 2025
 
 ---
 
 **Enlaces del proyecto:**
 
-- **Repositorio GitHub:** [URL_DEL_REPOSITORIO]
-- **Sitio web público:** [URL_DEL_SITIO_DESPLEGADO]
+- **Repositorio GitHub:** https://github.com/Federicojaviermartino/PEC_HTML_Y_CSS_I_Martino_Federico_Javier
+- **Sitio web público:** https://pechtmlycssimartinofedericojavier.netlify.app/
 
 ---
 
@@ -509,7 +509,7 @@ Se verificó que el sitio funciona correctamente:
 
 ### 8.5 URL del sitio público
 
-El sitio está disponible en: **[URL_FINAL_DEL_SITIO]**
+El sitio está disponible en: **https://pechtmlycssimartinofedericojavier.netlify.app/**
 
 ---
 
