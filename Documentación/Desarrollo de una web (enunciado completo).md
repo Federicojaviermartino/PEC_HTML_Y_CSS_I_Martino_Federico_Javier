@@ -1,27 +1,4 @@
 P1. Desarrollo de una web (enunciado completo)
-Actividad evaluable
-
-Individual
-
-Inicio
-
-14/10/2025
-
-Entrega
-
-15/11/2025
-
-Solución
-
-29/11/2025
-
-Calificación
-
-29/11/2025
-
-Dedicación
-
-67,5h
 
 En este módulo has aprendido qué es y cómo funciona un entorno de desarrollo moderno y dispones de herramientas que te ayudan a desarrollar sitios web. ¡Esta PEC es el momento de demostrar y poner en práctica todos los conocimientos adquiridos!
 
@@ -189,7 +166,7 @@ Se tiene que entregar la documentación en un documento de texto en formato est�
 
 Asegúrate que la documentación incluya enlaces a la web pública y al repositorio Git a la primera página. Es imprescindible que esta información esté presente, porque es desde donde podremos revisar tanto el código como la versión de la web en producción. NO HACE FALTA PRESENTAR LOS FICHEROS DE LA WEB COMPRIMIDOS, con el acceso al repositorio tenemos suficiente.
 
-La fecha límite de entrega es el 15 de noviembre de 2024 a las 23.59h.
+La fecha límite de entrega es el 15 de noviembre de 2025 a las 23.59h.
 
 Propiedad intelectual y plagio
 A menudo es inevitable, en producir una obra multimedia, hacer uso de recursos creados por terceras personas. Es, por tanto, comprensible hacerlo en el marco de una práctica de los estudios de este Máster, siempre que se documente claramente y no suponga plagio en la práctica.
