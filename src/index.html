@@ -31,6 +31,21 @@
       <div class="hero-content">
         <h1>Descubre Europa a Tu Manera</h1>
         <p>Ya sea viajando en familia o como mochilero, encuentra el destino perfecto para tu próxima aventura</p>
+
+        <svg class="travel-compass" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+          <circle cx="50" cy="50" r="35" fill="none" stroke="#06d6a0" stroke-width="2"/>
+          <text x="50" y="18" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="bold">N</text>
+          <text x="50" y="88" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="bold">S</text>
+          <text x="12" y="54" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="bold">O</text>
+          <text x="88" y="54" text-anchor="middle" fill="#ffffff" font-size="10" font-weight="bold">E</text>
+          <g class="compass-needle">
+            <polygon points="50,20 45,50 50,45 55,50" fill="#f77f00"/>
+            <polygon points="50,80 45,50 50,55 55,50" fill="#ffffff"/>
+          </g>
+          <circle cx="50" cy="50" r="5" fill="#06d6a0"/>
+        </svg>
+
         <a href="categoria.html" class="cta-button">Explorar Destinos</a>
       </div>
     </section>
@@ -40,7 +55,11 @@
 
       <div class="card-grid">
         <article class="card fade-in">
-          <img src="./images/familia-viajando.jpg" alt="Familia viajando junta">
+          <img srcset="./images/optimized/familia-viajando-1x.webp 1x,
+                       ./images/optimized/familia-viajando-2x.webp 2x,
+                       ./images/optimized/familia-viajando-3x.webp 3x"
+               src="./images/familia-viajando.jpg"
+               alt="Familia viajando junta">
           <div class="card-content">
             <h3>Viajes en Familia</h3>
             <p>Descubre destinos pensados para disfrutar con los más pequeños. Actividades, alojamientos familiares y consejos prácticos.</p>
@@ -49,7 +68,11 @@
         </article>
 
         <article class="card fade-in">
-          <img src="./images/mochilero-ruta.jpg" alt="Mochilero en ruta">
+          <img srcset="./images/optimized/mochilero-ruta-1x.webp 1x,
+                       ./images/optimized/mochilero-ruta-2x.webp 2x,
+                       ./images/optimized/mochilero-ruta-3x.webp 3x"
+               src="./images/mochilero-ruta.jpg"
+               alt="Mochilero en ruta">
           <div class="card-content">
             <h3>Rutas Mochilero</h3>
             <p>Explora Europa con presupuesto ajustado. Itinerarios, alojamientos económicos y experiencias auténticas.</p>
@@ -58,7 +81,11 @@
         </article>
 
         <article class="card fade-in">
-          <img src="./images/destinos-europa.jpg" alt="Destinos europeos">
+          <img srcset="./images/optimized/destinos-europa-1x.webp 1x,
+                       ./images/optimized/destinos-europa-2x.webp 2x,
+                       ./images/optimized/destinos-europa-3x.webp 3x"
+               src="./images/destinos-europa.jpg"
+               alt="Destinos europeos">
           <div class="card-content">
             <h3>Mejores Destinos</h3>
             <p>Una selección de las ciudades más interesantes de Europa, con información detallada y recomendaciones locales.</p>
@@ -68,12 +95,22 @@
       </div>
     </section>
 
-    <section class="container" style="background-color: white; padding: 3rem 2rem; border-radius: 8px; margin-top: 2rem;">
+    <section class="container europa-section">
       <h2>Por Qué Elegir Europa</h2>
-      <div style="max-width: 800px; margin: 0 auto;">
-        <p>Europa es un continente increíblemente diverso que ofrece experiencias para todo tipo de viajeros. Desde las playas del Mediterráneo hasta los fiordos nórdicos, pasando por ciudades históricas y paisajes naturales impresionantes.</p>
-        <p>Viajar por Europa es relativamente sencillo gracias a su excelente red de transporte, la zona Schengen que facilita el movimiento entre países, y la gran variedad de opciones de alojamiento que se adaptan a cualquier presupuesto.</p>
-        <p>Ya sea que viajes con tu familia buscando parques temáticos y museos interactivos, o como mochilero explorando hostales y rutas de senderismo, Europa tiene algo especial para ofrecerte en cada rincón.</p>
+      <div class="europa-content">
+        <div class="clipped-container">
+          <img srcset="./images/optimized/hero-europa-400w.webp 400w,
+                       ./images/optimized/hero-europa-800w.webp 800w"
+               sizes="(max-width: 768px) 80vw, 400px"
+               src="./images/hero-europa.jpg"
+               alt="Paisaje europeo con monumentos iconicos"
+               class="clipped-octagon">
+        </div>
+        <div class="europa-text">
+          <p>Europa es un continente increíblemente diverso que ofrece experiencias para todo tipo de viajeros. Desde las playas del Mediterráneo hasta los fiordos nórdicos, pasando por ciudades históricas y paisajes naturales impresionantes.</p>
+          <p>Viajar por Europa es relativamente sencillo gracias a su excelente red de transporte, la zona Schengen que facilita el movimiento entre países, y la gran variedad de opciones de alojamiento que se adaptan a cualquier presupuesto.</p>
+          <p>Ya sea que viajes con tu familia buscando parques temáticos y museos interactivos, o como mochilero explorando hostales y rutas de senderismo, Europa tiene algo especial para ofrecerte en cada rincón.</p>
+        </div>
       </div>
     </section>
   </main>

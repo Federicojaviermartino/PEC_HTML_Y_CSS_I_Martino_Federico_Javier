@@ -29,11 +29,22 @@
   <main id="main-content">
     <article class="container">
       <div class="detail-header">
-        <img
-          src="./images/barcelona-familia-hero.jpg"
-          alt="Familia disfrutando en Barcelona con la ciudad de fondo"
-          class="featured-image"
-        >
+        <picture>
+          <source media="(max-width: 576px)"
+                  srcset="./images/optimized/barcelona-familia-hero-mobile.webp"
+                  type="image/webp">
+          <source media="(max-width: 768px)"
+                  srcset="./images/optimized/barcelona-familia-hero-tablet.webp"
+                  type="image/webp">
+          <source media="(min-width: 769px)"
+                  srcset="./images/optimized/barcelona-familia-hero-desktop.webp"
+                  type="image/webp">
+          <img
+            src="./images/barcelona-familia-hero.jpg"
+            alt="Familia disfrutando en Barcelona con la ciudad de fondo"
+            class="featured-image"
+          >
+        </picture>
         <h1>Barcelona: El Destino Perfecto para Familias</h1>
       </div>
 

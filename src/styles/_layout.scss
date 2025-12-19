@@ -429,3 +429,152 @@ footer {
     transform: translateY(0);
   }
 }
+
+@keyframes slide-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-content h1 {
+  animation: slide-in-up 0.8s ease-out;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@keyframes rotate-needle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pulse-compass {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.travel-compass {
+  width: 100px;
+  height: 100px;
+  margin: $spacing-md auto;
+  display: block;
+
+  .compass-needle {
+    transform-origin: 50px 50px;
+    animation: rotate-needle 4s ease-in-out infinite;
+  }
+
+  circle:first-of-type {
+    animation: pulse-compass 3s ease-in-out infinite;
+  }
+}
+
+.europa-section {
+  background-color: $white;
+  padding: $spacing-xl $spacing-md;
+  border-radius: $border-radius;
+  margin-top: $spacing-lg;
+}
+
+.europa-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-lg;
+  max-width: 900px;
+  margin: 0 auto;
+
+  @include respond-to(tablet) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.clipped-container {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 300px;
+
+  @include respond-to(tablet) {
+    max-width: 350px;
+  }
+}
+
+.clipped-octagon {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+  transition: clip-path 0.4s ease, transform 0.4s ease;
+
+  &:hover {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%
+    );
+    transform: scale(1.02);
+  }
+}
+
+.europa-text {
+  flex: 1;
+
+  p {
+    text-align: left;
+    margin-bottom: $spacing-md;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
