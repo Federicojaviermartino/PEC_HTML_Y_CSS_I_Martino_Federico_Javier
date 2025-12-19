@@ -1,0 +1,122 @@
+[
+  {
+    "imagen": "barcelona-playa.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 22115445,
+    "tamanoNuevo": 30112,
+    "mejora": "99.9%"
+  },
+  {
+    "imagen": "tren-europa.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 12665513,
+    "tamanoNuevo": 20724,
+    "mejora": "99.8%"
+  },
+  {
+    "imagen": "familia-viajando.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 11928951,
+    "tamanoNuevo": 23528,
+    "mejora": "99.8%"
+  },
+  {
+    "imagen": "mochilero-ruta.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 2212086,
+    "tamanoNuevo": 42604,
+    "mejora": "98.1%"
+  },
+  {
+    "imagen": "barcelona-familia-hero.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 726299,
+    "tamanoNuevo": 41720,
+    "mejora": "94.3%"
+  },
+  {
+    "imagen": "hero-europa.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 559934,
+    "tamanoNuevo": 31984,
+    "mejora": "94.3%"
+  },
+  {
+    "imagen": "mochilero-hero.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 412584,
+    "tamanoNuevo": 23672,
+    "mejora": "94.3%"
+  },
+  {
+    "imagen": "barcelona-sagrada-familia.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 300242,
+    "tamanoNuevo": 60388,
+    "mejora": "79.9%"
+  },
+  {
+    "imagen": "praga-puente-carlos.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 180566,
+    "tamanoNuevo": 37016,
+    "mejora": "79.5%"
+  },
+  {
+    "imagen": "amsterdam-canales.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 162108,
+    "tamanoNuevo": 30146,
+    "mejora": "81.4%"
+  },
+  {
+    "imagen": "barcelona-parc-guell.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 137592,
+    "tamanoNuevo": 20648,
+    "mejora": "85.0%"
+  },
+  {
+    "imagen": "destinos-europa.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 103095,
+    "tamanoNuevo": 21374,
+    "mejora": "79.3%"
+  },
+  {
+    "imagen": "berlin-brandenburgo.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 91175,
+    "tamanoNuevo": 15118,
+    "mejora": "83.4%"
+  },
+  {
+    "imagen": "roma-coliseo.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 89770,
+    "tamanoNuevo": 14722,
+    "mejora": "83.6%"
+  },
+  {
+    "imagen": "paris-torre-eiffel.jpg",
+    "formatoAntiguo": "JPG",
+    "formatoNuevo": "WebP",
+    "tamanoOriginal": 77976,
+    "tamanoNuevo": 12002,
+    "mejora": "84.6%"
+  }
+]
